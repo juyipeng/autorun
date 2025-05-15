@@ -16,7 +16,7 @@ python环境：
 pip install -U sjtuautorun
 ```
 ## 运行
-需要修改`calculate_dates.py`文件里的lddir变量，将其改为雷电模拟器9的安装目录。
+需要修改`settime.py`文件里的lddir变量，将其改为雷电模拟器9的安装目录。
 
 然后在命令行中执行以下步骤，直接运行main.py即可：
 ```sh
