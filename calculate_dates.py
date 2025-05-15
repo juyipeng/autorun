@@ -3,7 +3,7 @@ runweeks = [0,1,2,3]
 import datetime
 
 def getdates():
-    basedate = datetime.date(2025, 2, 20)
+    basedate = datetime.date(2025, 2, 17)
 
     dates = []
 
