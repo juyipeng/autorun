@@ -5,7 +5,7 @@
 ## 环境准备
 本项目基于autorun项目，需要在电脑中下载雷电模拟器9，并配置交我办：
 - 安装 [雷电模拟器9](https://www.ldmnq.com/)
-- 在其中安装 `交我办3.4.3`(安装包在项目文件里有)
+- 在其中安装 `交我办3.4.3`(安装包在项目文件里有，可以复制到C:\Users\username\Documents\leidian9\Pictures\目录下（username改成自己的），然后在模拟器里的`雷电游戏中心-右上角下载按钮-apk管理`里找到并安装)
 - 登录Jaccount
 
 python环境：
@@ -16,7 +16,9 @@ python环境：
 pip install -U sjtuautorun
 ```
 ## 运行
-在命令行中执行以下步骤，直接运行main.py即可：
+需要修改`calculate_dates.py`文件里的lddir变量，将其改为雷电模拟器9的安装目录。
+
+然后在命令行中执行以下步骤，直接运行main.py即可：
 ```sh
 cd /project_path/ # /project_path/ 将/project_path/改为本项目的目录
 ```
