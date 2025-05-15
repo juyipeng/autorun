@@ -1,4 +1,4 @@
-lddir = 'E:\\Programmes\\leidian\\LDPlayer9\\' # 要以/或\\结尾，不可省略
+lddir = 'C:/leidian/' # 要以/或\\结尾，不可省略
 
 
 
